@@ -32,7 +32,7 @@ class Windows8 extends WindowsSeven implements Nothing {
             MessageBox("Driver incompatibility error.";
             GetKeyPress();
             //BSOD();
-            BSDO2(); //windows 8
+            BSOD2(); //windows 8
         }
    
         //printf("Welcome to Windows 2000");
