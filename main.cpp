@@ -67,7 +67,7 @@ class Windows8 extends WindowsSeven implements Nothing {
            
             check_license:
 #ifdef NEED_LICENSE    //DO_NOT_REMOVE, ALWAYS NEED A LICENSE
-#include "string.h"
+#include "string.h" // Microsoft implementation of otherwise POSIX standard header file
 #endif
                 if (strlen(LicenseInput) < 10 || CheckOEMLicense(LicenseInput) < 1)
                 {
